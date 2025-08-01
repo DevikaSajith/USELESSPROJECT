@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Judgy Typer</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+  <style>
+    body {
+      text-align: center;
+      padding: 40px;
+    }
+
+    textarea {
+      width: 80%;
+      height: 200px;
+      font-size: 18px;
+      padding: 15px;
+      border-radius: 10px;
+      border: 2px solid #999;
+      resize: none;
+      outline: none;
+    }
+
+    .roast {
+      margin-top: 20px;
+      font-size: 20px;
+      color: crimson;
+      font-weight: bold;
+    }
+
+    .score {
+      font-size: 40px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>⌨️ Judgy Typer</h1>
+  <p>Type below and get insulted instantly.</p>
+  <textarea id="typingArea" placeholder="Start typing here..."></textarea>
+  <div class="roast" id="roastText"></div>
+  <div class="score" id="scoreText"></div>
+
+  <script src="../script/typing.js"></script>
+</body>
+</html>
